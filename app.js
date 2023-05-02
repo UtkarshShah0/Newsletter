@@ -38,7 +38,7 @@ app.post("/", function(req, res){
 
     const options = {
         method: "POST",
-        auth: "utkarsh:"+KEY
+        auth: "utkarsh:"+process.env.KEY
     }
 
 
